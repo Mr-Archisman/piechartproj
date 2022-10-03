@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.my-button:active {
+  background-color: black !important;
+} 
+.tbody:hover{
+  transform:scale(1)!important;
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+  transform: scale(1.02); 
+  outline: none;
+}
